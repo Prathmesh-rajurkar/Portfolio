@@ -2,7 +2,7 @@ import React from 'react'
 import dp from '../assets/Profilepic.jpg'
 function About() {
   return (
-    <div id='about' className='h-[100vh]'>
+    <div id='about' className='h-[98vh]'>
         <h1 className='font-bold text-4xl my-2'>About</h1>
         <p className='text-gray-700'>My Introduction</p>
 
