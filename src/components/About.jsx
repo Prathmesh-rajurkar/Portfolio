@@ -6,8 +6,8 @@ function About() {
         <h1 className='font-bold text-4xl my-2'>About</h1>
         <p className='text-gray-700'>My Introduction</p>
 
-        <div className='flex justify-around items-center mt-20'>
-            <div className='overflow-hidden w-[40%] rounded-lg '>
+        <div className='flex justify-between items-center mt-10'>
+            <div className='overflow-hidden w-[50%] rounded-lg '>
               <img src={dp} alt="" />
             </div>
             <div className='w-[40%]'>

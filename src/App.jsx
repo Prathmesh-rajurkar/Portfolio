@@ -11,7 +11,7 @@ function App() {
         <header className="w-full shadow-gray-300 shadow-md flex justify-center fixed bg-white top-0 z-10">
           <Navbar />
         </header>
-        <div className="w-[65%] py-[6rem]">
+        <div className="w-[85%] py-[6rem]">
           <Main />
         </div>
       </div>
