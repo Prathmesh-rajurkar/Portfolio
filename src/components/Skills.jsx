@@ -32,8 +32,15 @@ function Skills() {
                 <p className="text-black">AI & Data Science</p>
               </div>
             </AccordionTrigger>
-            <AccordionContent>
-              Yes. It adheres to the WAI-ARIA design pattern.
+            <AccordionContent className="flex justify-center">
+            <ul className="text-2xl text-start text-black w-[80%]">
+                <li className="hover:text-3xl">Machine Learning</li>
+                <li className="hover:text-3xl">Deep Learning</li>
+                <li className="hover:text-3xl">EDA</li>
+                <li className="hover:text-3xl">Feature Engineering</li>
+                <li className="hover:text-3xl">Natural Language Processing</li>
+                <li className="hover:text-3xl">Data Analytics & Visualization</li>
+              </ul>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2" className="">
@@ -43,9 +50,13 @@ function Skills() {
                 <p className="text-black">Frontend</p>
               </div>
             </AccordionTrigger>
-            <AccordionContent>
-              Yes. It comes with default styles that matches the other
-              components&apos; aesthetic.
+            <AccordionContent className="flex justify-center">
+            <ul className="text-2xl text-start text-black w-[80%]">
+                <li className="hover:text-3xl">HTML</li>
+                <li className="hover:text-3xl">CSS</li>
+                <li className="hover:text-3xl">JavaScript</li>
+                <li className="hover:text-3xl">ReactJS</li>
+              </ul>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3" className="">
@@ -55,9 +66,13 @@ function Skills() {
                 <p className="text-black">Programming</p>
               </div>
             </AccordionTrigger>
-            <AccordionContent>
-              Yes. It&apos;s animated by default, but you can disable it if you
-              prefer.
+            <AccordionContent className="flex justify-center">
+            <ul className="text-2xl text-start text-black w-[80%]">
+                <li className="hover:text-3xl">Python</li>
+                <li className="hover:text-3xl">JavaScript</li>
+                <li className="hover:text-3xl">SQL</li>
+                <li className="hover:text-3xl">C++</li>
+              </ul>
             </AccordionContent>
           </AccordionItem>
         </Accordion>
@@ -70,9 +85,13 @@ function Skills() {
                 <p className="text-black">Backend</p>
               </div>
             </AccordionTrigger>
-            <AccordionContent>
-              Yes. It&apos;s animated by default, but you can disable it if you
-              prefer.
+            <AccordionContent className="flex justify-center">
+            <ul className="text-2xl text-start text-black w-[80%]">
+                <li className="hover:text-3xl">NodeJS, ExpressJS</li>
+                <li className="hover:text-3xl">Django</li>
+                <li className="hover:text-3xl">FastAPI</li>
+                <li className="hover:text-3xl">Flask</li>
+              </ul>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-5" className="">
@@ -82,9 +101,13 @@ function Skills() {
                 <p className="text-black">Computing</p>
               </div>
             </AccordionTrigger>
-            <AccordionContent>
-              Yes. It&apos;s animated by default, but you can disable it if you
-              prefer.
+            <AccordionContent className="flex justify-center">
+            <ul className="text-2xl text-start text-black w-[80%]">
+                <li className="hover:text-3xl">Amazon Web Service</li>
+                <li className="hover:text-3xl">Google Cloud Platform</li>
+                <li className="hover:text-3xl">Azure</li>
+                <li className="hover:text-3xl">Docker</li>
+              </ul>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-6" className="">
@@ -94,9 +117,15 @@ function Skills() {
                 <p className="text-black"> Misc</p>
               </div>
             </AccordionTrigger>
-            <AccordionContent>
-              Yes. It&apos;s animated by default, but you can disable it if you
-              prefer.
+            <AccordionContent className="flex justify-center">
+            <ul className="text-2xl text-start text-black w-[80%]">
+                <li className="hover:text-3xl"></li>
+                <li className="hover:text-3xl">Git,GitHub</li>
+                <li className="hover:text-3xl">VScode</li>
+                <li className="hover:text-3xl">Agile Development Model</li>
+                <li className="hover:text-3xl"></li>
+                <li className="hover:text-3xl"></li>
+              </ul>
             </AccordionContent>
           </AccordionItem>
         </Accordion>
