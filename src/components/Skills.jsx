@@ -23,7 +23,6 @@ function Skills() {
           type="single"
           collapsible
           className=" w-[90%] p-4 border-none  "
-          defaultValue="item-1"
         >
           <AccordionItem value="item-1" className=" no-underline">
             <AccordionTrigger className="text-3xl flex justify-between font-bold font-mono">
