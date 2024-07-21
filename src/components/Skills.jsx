@@ -32,13 +32,13 @@ function Skills() {
               </div>
             </AccordionTrigger>
             <AccordionContent className="flex justify-center">
-            <ul className="text-2xl text-start text-black w-[80%]">
-                <li className="hover:text-3xl">Machine Learning</li>
-                <li className="hover:text-3xl">Deep Learning</li>
-                <li className="hover:text-3xl">EDA</li>
-                <li className="hover:text-3xl">Feature Engineering</li>
-                <li className="hover:text-3xl">Natural Language Processing</li>
-                <li className="hover:text-3xl">Data Analytics & Visualization</li>
+            <ul className="text-xl text-start text-black w-[80%]">
+                <li className="hover:text-2xl">Machine Learning</li>
+                <li className="hover:text-2xl">EDA</li>
+                <li className="hover:text-2xl">Deep Learning</li>
+                <li className="hover:text-2xl">Feature Engineering</li>
+                <li className="hover:text-2xl">Natural Language Processing</li>
+                <li className="hover:text-2xl">Data Analytics & <br /> Visualization</li>
               </ul>
             </AccordionContent>
           </AccordionItem>
@@ -50,11 +50,11 @@ function Skills() {
               </div>
             </AccordionTrigger>
             <AccordionContent className="flex justify-center">
-            <ul className="text-2xl text-start text-black w-[80%]">
-                <li className="hover:text-3xl">HTML</li>
-                <li className="hover:text-3xl">CSS</li>
-                <li className="hover:text-3xl">JavaScript</li>
-                <li className="hover:text-3xl">ReactJS</li>
+            <ul className="text-xl text-start text-black w-[80%]">
+                <li className="hover:text-2xl">HTML</li>
+                <li className="hover:text-2xl">CSS</li>
+                <li className="hover:text-2xl">JavaScript</li>
+                <li className="hover:text-2xl">ReactJS</li>
               </ul>
             </AccordionContent>
           </AccordionItem>
@@ -66,11 +66,11 @@ function Skills() {
               </div>
             </AccordionTrigger>
             <AccordionContent className="flex justify-center">
-            <ul className="text-2xl text-start text-black w-[80%]">
-                <li className="hover:text-3xl">Python</li>
-                <li className="hover:text-3xl">JavaScript</li>
-                <li className="hover:text-3xl">SQL</li>
-                <li className="hover:text-3xl">C++</li>
+            <ul className="text-xl text-start text-black w-[80%]">
+                <li className="hover:text-2xl">Python</li>
+                <li className="hover:text-2xl">JavaScript</li>
+                <li className="hover:text-2xl">SQL</li>
+                <li className="hover:text-2xl">C++</li>
               </ul>
             </AccordionContent>
           </AccordionItem>
@@ -85,11 +85,11 @@ function Skills() {
               </div>
             </AccordionTrigger>
             <AccordionContent className="flex justify-center">
-            <ul className="text-2xl text-start text-black w-[80%]">
-                <li className="hover:text-3xl">NodeJS, ExpressJS</li>
-                <li className="hover:text-3xl">Django</li>
-                <li className="hover:text-3xl">FastAPI</li>
-                <li className="hover:text-3xl">Flask</li>
+            <ul className="text-xl text-start text-black w-[80%]">
+                <li className="hover:text-2xl">NodeJS, ExpressJS</li>
+                <li className="hover:text-2xl">Django</li>
+                <li className="hover:text-2xl">FastAPI</li>
+                <li className="hover:text-2xl">Flask</li>
               </ul>
             </AccordionContent>
           </AccordionItem>
@@ -101,11 +101,11 @@ function Skills() {
               </div>
             </AccordionTrigger>
             <AccordionContent className="flex justify-center">
-            <ul className="text-2xl text-start text-black w-[80%]">
-                <li className="hover:text-3xl">Amazon Web Service</li>
-                <li className="hover:text-3xl">Google Cloud Platform</li>
-                <li className="hover:text-3xl">Azure</li>
-                <li className="hover:text-3xl">Docker</li>
+            <ul className="text-xl text-start text-black w-[80%]">
+                <li className="hover:text-2xl">Amazon Web Service</li>
+                <li className="hover:text-2xl">Google Cloud Platform</li>
+                <li className="hover:text-2xl">Azure</li>
+                <li className="hover:text-2xl">Docker</li>
               </ul>
             </AccordionContent>
           </AccordionItem>
@@ -117,13 +117,13 @@ function Skills() {
               </div>
             </AccordionTrigger>
             <AccordionContent className="flex justify-center">
-            <ul className="text-2xl text-start text-black w-[80%]">
-                <li className="hover:text-3xl"></li>
-                <li className="hover:text-3xl">Git,GitHub</li>
-                <li className="hover:text-3xl">VScode</li>
-                <li className="hover:text-3xl">Agile Development Model</li>
-                <li className="hover:text-3xl"></li>
-                <li className="hover:text-3xl"></li>
+            <ul className="text-xl text-start text-black w-[80%]">
+                <li className="hover:text-2xl"></li>
+                <li className="hover:text-2xl">Git,GitHub</li>
+                <li className="hover:text-2xl">VScode</li>
+                <li className="hover:text-2xl">Agile Development Model</li>
+                <li className="hover:text-2xl"></li>
+                <li className="hover:text-2xl"></li>
               </ul>
             </AccordionContent>
           </AccordionItem>

@@ -11,13 +11,13 @@ function Navbar() {
         <h3 className="ml-2 font-bold text-xl">Prathmesh Rajurkar</h3>
       </div>
       <div className="flex flex-row justify-between items-center w-[70%] ">
-        <div className=""><Link activeClass='active'
+        <div className="cursor-pointer"><Link activeClass='active'
             to="home"
             spy={true}
             offset={-100}
             duration={500}
             smooth={true}>Home</Link></div>
-        <div>
+        <div className="cursor-pointer">
           <Link
             activeClass='active'
             to="about"
@@ -28,7 +28,7 @@ function Navbar() {
             About
           </Link>
         </div>
-        <div><Link
+        <div className="cursor-pointer"><Link
             activeClass='active'
             to="skill"
             spy={true}
@@ -39,12 +39,12 @@ function Navbar() {
           </Link></div>
 
 
-        <div>Experience</div>
-        <div>Services</div>
-        <div>Portfolio</div>
-        <div>Research</div>
-        <div>Blog</div>
-        <div>Contact</div>
+        <div className="cursor-pointer">Experience</div>
+        <div className="cursor-pointer">Services</div>
+        <div className="cursor-pointer">Portfolio</div>
+        <div className="cursor-pointer">Research</div>
+        <div className="cursor-pointer">Blog</div>
+        <div className="cursor-pointer">Contact</div>
       </div>
     </div>
   );
