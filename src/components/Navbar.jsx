@@ -22,7 +22,7 @@ function Navbar() {
             activeClass='active'
             to="about"
             spy={true}
-            offset={-100}
+            offset={-80}
             duration={500}
             smooth={true}>
             About
@@ -37,6 +37,8 @@ function Navbar() {
             smooth={true}>
             Skills
           </Link></div>
+
+
         <div>Experience</div>
         <div>Services</div>
         <div>Portfolio</div>
