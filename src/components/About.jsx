@@ -7,7 +7,7 @@ function About() {
         <p className='text-gray-700'>My Introduction</p>
 
         <div className='flex justify-between items-center  h-[90%]'>
-            <div className='overflow-hidden w-[50%] rounded-lg '>
+            <div className='overflow-hidden w-[40%] rounded-lg '>
               <img src={dp} alt="" />
             </div>
             <div className='w-[40%]'>
