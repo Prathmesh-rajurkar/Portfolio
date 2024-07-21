@@ -39,10 +39,17 @@ function Navbar() {
           </Link></div>
 
 
-        <div className="cursor-pointer">Experience</div>
-        <div className="cursor-pointer">Services</div>
+        <div className="cursor-pointer"><Link
+            activeClass='active'
+            to="projects"
+            spy={true}
+            offset={-100}
+            duration={500}
+            smooth={true}>
+            Projects
+          </Link></div>
         <div className="cursor-pointer">Portfolio</div>
-        <div className="cursor-pointer">Research</div>
+        <div className="cursor-pointer">Community</div>
         <div className="cursor-pointer">Blog</div>
         <div className="cursor-pointer">Contact</div>
       </div>
