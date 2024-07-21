@@ -22,7 +22,7 @@ function Navbar() {
             activeClass='active'
             to="about"
             spy={true}
-            offset={-80}
+            offset={-100}
             duration={500}
             smooth={true}>
             About
