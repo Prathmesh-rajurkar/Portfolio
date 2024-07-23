@@ -1,5 +1,5 @@
 import React from "react";
-import Autoplay from "embla-carousel-autoplay"
+import Autoplay from "embla-carousel-autoplay";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
@@ -16,7 +16,7 @@ function Projects() {
       <p className="text-gray-700">My Technical and Miscellanous Skills</p>
       <div className="w-[90%] flex justify-center my-20">
         <Carousel
-          className="w-[100%] max-w-2xl"
+          className="w-[100%] max-w-4xl"
           opts={{
             align: "start",
             loop: true,
@@ -30,18 +30,22 @@ function Projects() {
           <CarouselContent>
             <CarouselItem>
               <Card>
-                <CardContent className="flex  items-center justify-center ">
-                  <div className="flex justify-between items-center text-start">
-                    <img src="https://picsum.photos/200?random=1767" alt="" />
-                    <div>
-                      <h1 className="text-xl">OnlyGANS</h1>
-                      <p>
+                <CardContent className="flex  items-center justify-center p-5">
+                  <div className="flex justify-between items-center text-start ">
+                    <div className="">
+                      <img src="https://picsum.photos/300?random=1766" alt="" />
+                    </div>
+                    <div className="p-5 w-[65%]">
+                      <h1 className="text-3xl mb-5">OnlyGANS</h1>
+                      <p className="text-xl mb-5">
                         An Open-source end-to-end library containing all
                         implementations of GANs with pretrained weights,
                         training &amp; evaulating functionalities, and other
                         zero-shot features. Under early-development stages.
                       </p>
-                      <div className="rounded bg-[#6e57e0] text-white px-3 py-1 w-fit">View</div>
+                      <div className="rounded bg-[#6e57e0] mb-5 text-white px-3 py-1 w-fit">
+                        View
+                      </div>
                     </div>
                   </div>
                 </CardContent>
@@ -49,18 +53,22 @@ function Projects() {
             </CarouselItem>
             <CarouselItem>
               <Card>
-                <CardContent className="flex  items-center justify-center p-6">
-                <div className="flex justify-between items-center text-start">
-                    <img src="https://picsum.photos/200?random=1767" alt="" />
-                    <div>
-                      <h1 className="text-xl">OnlyGANS</h1>
-                      <p>
+              <CardContent className="flex  items-center justify-center p-5">
+                  <div className="flex justify-between items-center text-start ">
+                    <div className="">
+                      <img src="https://picsum.photos/300?random=1756" alt="" />
+                    </div>
+                    <div className="p-5 w-[65%]">
+                      <h1 className="text-3xl mb-5">OnlyGANS</h1>
+                      <p className="text-xl mb-5">
                         An Open-source end-to-end library containing all
                         implementations of GANs with pretrained weights,
                         training &amp; evaulating functionalities, and other
                         zero-shot features. Under early-development stages.
                       </p>
-                      <div className="rounded bg-[#6e57e0] text-white px-3 py-1 w-fit">View</div>
+                      <div className="rounded bg-[#6e57e0] mb-5 text-white px-3 py-1 w-fit">
+                        View
+                      </div>
                     </div>
                   </div>
                 </CardContent>
@@ -68,18 +76,22 @@ function Projects() {
             </CarouselItem>
             <CarouselItem>
               <Card>
-                <CardContent className="flex  items-center justify-center p-6">
-                <div className="flex justify-between items-center text-start">
-                    <img src="https://picsum.photos/200?random=1767" alt="" />
-                    <div>
-                      <h1 className="text-xl">OnlyGANS</h1>
-                      <p>
+              <CardContent className="flex  items-center justify-center p-5">
+                  <div className="flex justify-between items-center text-start ">
+                    <div className="">
+                      <img src="https://picsum.photos/300?random=1746" alt="" />
+                    </div>
+                    <div className="p-5 w-[65%]">
+                      <h1 className="text-3xl mb-5">OnlyGANS</h1>
+                      <p className="text-xl mb-5">
                         An Open-source end-to-end library containing all
                         implementations of GANs with pretrained weights,
                         training &amp; evaulating functionalities, and other
                         zero-shot features. Under early-development stages.
                       </p>
-                      <div className="rounded bg-[#6e57e0] text-white px-3 py-1 w-fit">View</div>
+                      <div className="rounded bg-[#6e57e0] mb-5 text-white px-3 py-1 w-fit">
+                        View
+                      </div>
                     </div>
                   </div>
                 </CardContent>
@@ -87,18 +99,22 @@ function Projects() {
             </CarouselItem>
             <CarouselItem>
               <Card>
-                <CardContent className="flex  items-center justify-center p-6">
-                <div className="flex justify-between items-center text-start">
-                    <img src="https://picsum.photos/200?random=1767" alt="" />
-                    <div>
-                      <h1 className="text-xl">OnlyGANS</h1>
-                      <p>
+              <CardContent className="flex  items-center justify-center p-5">
+                  <div className="flex justify-between items-center text-start ">
+                    <div className="">
+                      <img src="https://picsum.photos/300?random=1736" alt="" />
+                    </div>
+                    <div className="p-5 w-[65%]">
+                      <h1 className="text-3xl mb-5">OnlyGANS</h1>
+                      <p className="text-xl mb-5">
                         An Open-source end-to-end library containing all
                         implementations of GANs with pretrained weights,
                         training &amp; evaulating functionalities, and other
                         zero-shot features. Under early-development stages.
                       </p>
-                      <div className="rounded bg-[#6e57e0] text-white px-3 py-1 w-fit">View</div>
+                      <div className="rounded bg-[#6e57e0] mb-5 text-white px-3 py-1 w-fit">
+                        View
+                      </div>
                     </div>
                   </div>
                 </CardContent>
@@ -106,18 +122,22 @@ function Projects() {
             </CarouselItem>
             <CarouselItem>
               <Card>
-                <CardContent className="flex items-center justify-center p-6">
-                <div className="flex justify-between items-center text-start">
-                    <img src="https://picsum.photos/200?random=1767" alt="" />
-                    <div>
-                      <h1 className="text-xl">OnlyGANS</h1>
-                      <p>
+              <CardContent className="flex  items-center justify-center p-5">
+                  <div className="flex justify-between items-center text-start ">
+                    <div className="">
+                      <img src="https://picsum.photos/300?random=1726" alt="" />
+                    </div>
+                    <div className="p-5 w-[65%]">
+                      <h1 className="text-3xl mb-5">OnlyGANS</h1>
+                      <p className="text-xl mb-5">
                         An Open-source end-to-end library containing all
                         implementations of GANs with pretrained weights,
                         training &amp; evaulating functionalities, and other
                         zero-shot features. Under early-development stages.
                       </p>
-                      <div className="rounded bg-[#6e57e0] text-white px-3 py-1 w-fit">View</div>
+                      <div className="rounded bg-[#6e57e0] mb-5 text-white px-3 py-1 w-fit">
+                        View
+                      </div>
                     </div>
                   </div>
                 </CardContent>
@@ -125,18 +145,22 @@ function Projects() {
             </CarouselItem>
             <CarouselItem>
               <Card>
-                <CardContent className="flex  items-center justify-center p-6">
-                <div className="flex justify-between items-center text-start">
-                    <img src="https://picsum.photos/200?random=1767" alt="" />
-                    <div>
-                      <h1 className="text-xl">OnlyGANS</h1>
-                      <p>
+              <CardContent className="flex  items-center justify-center p-5">
+                  <div className="flex justify-between items-center text-start ">
+                    <div className="">
+                      <img src="https://picsum.photos/300?random=1716" alt="" />
+                    </div>
+                    <div className="p-5 w-[65%]">
+                      <h1 className="text-3xl mb-5">OnlyGANS</h1>
+                      <p className="text-xl mb-5">
                         An Open-source end-to-end library containing all
                         implementations of GANs with pretrained weights,
                         training &amp; evaulating functionalities, and other
                         zero-shot features. Under early-development stages.
                       </p>
-                      <div className="rounded bg-[#6e57e0] text-white px-3 py-1 w-fit">View</div>
+                      <div className="rounded bg-[#6e57e0] mb-5 text-white px-3 py-1 w-fit">
+                        View
+                      </div>
                     </div>
                   </div>
                 </CardContent>

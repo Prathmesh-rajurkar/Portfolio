@@ -48,10 +48,33 @@ function Navbar() {
             smooth={true}>
             Projects
           </Link></div>
-        <div className="cursor-pointer">Portfolio</div>
-        <div className="cursor-pointer">Community</div>
-        <div className="cursor-pointer">Blog</div>
-        <div className="cursor-pointer">Contact</div>
+          <div className="cursor-pointer"><Link
+            activeClass='active'
+            to="portfolio"
+            spy={true}
+            offset={-100}
+            duration={500}
+            smooth={true}>
+            Portfolio
+          </Link></div>
+          <div className="cursor-pointer"><Link
+            activeClass='active'
+            to="community"
+            spy={true}
+            offset={-100}
+            duration={500}
+            smooth={true}>
+            Community
+          </Link></div>
+          <div className="cursor-pointer"><Link
+            activeClass='active'
+            to="contact"
+            spy={true}
+            offset={-100}
+            duration={500}
+            smooth={true}>
+            Contact
+          </Link></div>
       </div>
     </div>
   );

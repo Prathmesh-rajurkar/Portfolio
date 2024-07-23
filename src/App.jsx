@@ -2,6 +2,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 import Main from "./components/Main.jsx";
+import Footer from "./components/Footer";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -13,6 +14,9 @@ function App() {
         </header>
         <div className="w-[85%] py-[6rem]">
           <Main />
+        </div>
+        <div className="w-[99vw]">
+          <Footer/>
         </div>
       </div>
     </>

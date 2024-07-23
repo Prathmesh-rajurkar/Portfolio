@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/Pfp-removebg-preview.png";
+import { Link } from "react-scroll";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 function Info() {
   return (
@@ -18,10 +19,19 @@ function Info() {
           </p>
         </div>
 
+        <Link
+            activeClass='active'
+            to="contact"
+            spy={true}
+            offset={-100}
+            duration={500}
+            smooth={true}>
+            
         <div className="bg-[#6e57e0] w-fit p-4 rounded-xl flex flex-row items-center justify-center gap-2 hover:gap-4 text-lg text-white font-bold my-10">
           <button>Contact</button>
           <FaRegArrowAltCircleRight/>
         </div>
+          </Link>
       </div>
 
       <div>

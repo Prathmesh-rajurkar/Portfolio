@@ -18,7 +18,7 @@ function Skills() {
     <div id="skill" className="h-[100vh]">
       <h1 className="font-bold text-4xl my-2">Skills</h1>
       <p className="text-gray-700">My Technical and Miscellanous Skills</p>
-      <div className="text-[#6e57e0] my-10 flex justify-between w-[100%]">
+      <div className="text-[#6e57e0]  flex justify-between w-[100%] my-24">
         <Accordion
           type="single"
           collapsible
