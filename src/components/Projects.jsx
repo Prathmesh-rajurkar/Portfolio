@@ -8,7 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-
+import music_recc from "../assets/music_recommender.png"
 function Projects() {
   return (
     <div id="projects" className="h-[100vh]">
@@ -56,18 +56,17 @@ function Projects() {
               <CardContent className="flex  items-center justify-center p-5">
                   <div className="flex justify-between items-center text-start ">
                     <div className="">
-                      <img src="https://picsum.photos/300?random=1756" alt="" />
+                      <img className="max-w-xs" src={music_recc} alt="" />
                     </div>
                     <div className="p-5 w-[65%]">
-                      <h1 className="text-3xl mb-5">OnlyGANS</h1>
+                      <h1 className="text-3xl mb-5">Music Recommender</h1>
                       <p className="text-xl mb-5">
-                        An Open-source end-to-end library containing all
-                        implementations of GANs with pretrained weights,
-                        training &amp; evaulating functionalities, and other
-                        zero-shot features. Under early-development stages.
+                       A Music Recommender System Trained on "Spotify milion dataset" 
+                       made using concept of nlp and cosine similarity &amp; deployed using streamlite.
+                       It uses a concept of nltk and tfidf 
                       </p>
                       <div className="rounded bg-[#6e57e0] mb-5 text-white px-3 py-1 w-fit">
-                        View
+                        <a href="https://github.com/Prathmesh-rajurkar/MusicRecommendation" target="_blank">View</a>
                       </div>
                     </div>
                   </div>
