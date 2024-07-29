@@ -4,8 +4,8 @@ import Info from "./Info";
 
 function Home() {
   return (
-    <div id="home" className="flex justify-center  py-5 font-mono h-[100vh]">
-      <div className="w-[20%]">
+    <div id="home" className="flex justify-center my-[4rem] py-5 font-mono h-full">
+      <div className="w-[20%] hidden">
         <Social />
       </div>
       <div className="w-[80%]">
