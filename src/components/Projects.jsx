@@ -9,6 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import music_recc from "../assets/music_recommender.png";
+import real_estate from "../assets/real_estate.png"
 
 function Projects() {
   return (
@@ -61,15 +62,13 @@ function Projects() {
               <Card>
                 <CardContent className="flex flex-col md:flex-row items-center justify-center gap-9 p-5">
                   <div className="flex-shrink-0 mb-5 md:mb-0 mr-5 md:mr-0">
-                    <img className="max-w-xs" src={music_recc} alt="" />
+                    <img className="max-w-xs" src={real_estate} alt="" />
                   </div>
                   <div className="w-full">
-                    <h1 className="text-3xl mb-5">Music Recommender</h1>
+                    <h1 className="text-3xl mb-5">Real Estate Price Predictor</h1>
                     <p className="text-xl mb-5">
-                      A Music Recommender System Trained on "Spotify milion
-                      dataset" made using concepts of NLP and cosine similarity
-                      &amp; deployed using streamlit. It uses a concept of nltk
-                      and tfidf.
+                      A Real Estate Price Predictor System that predicts the price of the Estate in Bangalore's various areas,
+                      it has been made using Bangalore real estate price dataset from kaggle 
                     </p>
                     <div className="rounded bg-[#6e57e0] text-white px-3 py-1 w-fit md:m-0 m-auto">
                       <a
