@@ -50,7 +50,7 @@ function Projects() {
                         href="https://github.com/Prathmesh-rajurkar/MusicRecommendation"
                         target="_blank"
                       >
-                        View
+                        View Code
                       </a>
                     </div>
                   </div>
@@ -72,10 +72,10 @@ function Projects() {
                     </p>
                     <div className="rounded bg-[#6e57e0] text-white px-3 py-1 w-fit md:m-0 m-auto">
                       <a
-                        href="https://github.com/Prathmesh-rajurkar/MusicRecommendation"
+                        href="https://github.com/Prathmesh-rajurkar/Real_Estate_Price_Pred.git"
                         target="_blank"
                       >
-                        View
+                        View Code
                       </a>
                     </div>
                   </div>
