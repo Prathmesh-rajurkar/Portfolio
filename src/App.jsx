@@ -41,9 +41,9 @@ function App() {
         <main className="flex-grow w-full mx-auto">
           <Main />
         </main>
-        <footer className="w-full bg-gray-200 py-4">
+        {/* <footer className="w-full bg-gray-200 py-4">
           <Footer />
-        </footer>
+        </footer> */}
       </div>
     </>
   );

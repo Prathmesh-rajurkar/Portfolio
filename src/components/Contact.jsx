@@ -4,27 +4,26 @@ import { IoLocationOutline } from "react-icons/io5";
 
 function Contact() {
   return (
-    <div id="contact" className="h-[100vh] ">
-      <h1 className="font-bold text-4xl my-2">Contact</h1>
-      <p className="text-gray-700">Get in touch with me</p>
-      <div className="flex flex-col justify-center items-center my-20 w-full mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center w-[40%] text-start my-10">
-          <div className="flex justify-center gap-10 w-fit  items-center mr-5 md:mr-0">
-            <CiMail size={40} />
-          </div>
-          <div className="flex-grow w-fit">
-            <h1 className="text-3xl">Email</h1>
-            <p>prathmeshrajurkar199@gmail.com</p>
+    <div className="flex flex-col items-center p-8 bg-white ">
+      <h2 className="text-4xl font-bold mb-4">Contact</h2>
+      <p className=" mb-8">Get in touch with me</p>
+
+      <div className="flex flex-col items-start space-y-10 my-24">
+        {/* Email Section */}
+        <div className="flex items-center space-x-4 text-start">
+          <CiMail size={30} />
+          <div>
+            <h4 className="text-3xl font-semibold">Email</h4>
+            <p className="">prathmeshrajurkar199@gmail.com</p>
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between items-center w-[40%] text-start my-10">
-          <div className="flex justify-center items-center mr-5 md:mr-0">
-            <IoLocationOutline size={40} />
-          </div>
-          <div className="flex-grow">
-            <h1 className="text-3xl">Location</h1>
-            <p>Nagpur | Maharashtra</p>
+        {/* Location Section */}
+        <div className="flex items-center space-x-4 text-start ">
+          <IoLocationOutline size={30} />
+          <div>
+            <h4 className="text-3xl font-semibold">Location</h4>
+            <p className="">Nagpur | Maharashtra | India</p>
           </div>
         </div>
       </div>
@@ -33,4 +32,3 @@ function Contact() {
 }
 
 export default Contact;
-

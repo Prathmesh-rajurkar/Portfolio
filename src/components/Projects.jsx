@@ -25,7 +25,7 @@ function Projects() {
           }}
           plugins={[
             Autoplay({
-              delay: 400000,
+              delay: 4000,
             }),
           ]}
         >
