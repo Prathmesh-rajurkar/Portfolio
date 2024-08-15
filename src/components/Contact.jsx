@@ -4,7 +4,7 @@ import { IoLocationOutline } from "react-icons/io5";
 
 function Contact() {
   return (
-    <div className="flex flex-col items-center p-8 bg-white ">
+    <div id="contact" className="flex flex-col items-center p-8 bg-white ">
       <h2 className="text-4xl font-bold mb-4">Contact</h2>
       <p className=" mb-8">Get in touch with me</p>
 

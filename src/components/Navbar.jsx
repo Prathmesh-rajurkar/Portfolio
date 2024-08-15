@@ -31,7 +31,7 @@ function Navbar() {
             offset={-100}
             duration={500}
             smooth={true}
-            className="block md:inline-block p-2 hover:bg-gray-200">
+            className="block md:inline-block p-2 cursor-pointer">
             Home
           </Link>
           
@@ -41,7 +41,7 @@ function Navbar() {
             offset={-100}
             duration={500}
             smooth={true}
-            className="block md:inline-block p-2 hover:bg-gray-200">
+            className="block md:inline-block p-2 cursor-pointer">
             About
           </Link>
 
@@ -51,7 +51,7 @@ function Navbar() {
             offset={-100}
             duration={500}
             smooth={true}
-            className="block md:inline-block p-2 hover:bg-gray-200">
+            className="block md:inline-block p-2 cursor-pointer">
             Skills
           </Link>
 
@@ -61,7 +61,7 @@ function Navbar() {
             offset={-100}
             duration={500}
             smooth={true}
-            className="block md:inline-block p-2 hover:bg-gray-200">
+            className="block md:inline-block p-2 cursor-pointer">
             Projects
           </Link>
 
@@ -71,7 +71,7 @@ function Navbar() {
             offset={-100}
             duration={500}
             smooth={true}
-            className="block md:inline-block p-2 hover:bg-gray-200">
+            className="block md:inline-block p-2 cursor-pointer">
             Portfolio
           </Link>
 
@@ -79,20 +79,20 @@ function Navbar() {
           <Link activeClass='active'
             to="community"
             spy={true}
-            offset={-100}
+            offset={-150}
             duration={500}
             smooth={true}
-            className="block md:inline-block p-2 hover:bg-gray-200">
+            className="block md:inline-block p-2 cursor-pointer ">
             Community
           </Link>
 
           <Link activeClass='active'
             to="contact"
             spy={true}
-            offset={-100}
+            offset={-200}
             duration={500}
             smooth={true}
-            className="block md:inline-block p-2 hover:bg-gray-200">
+            className="block md:inline-block p-2 cursor-pointer ">
             Contact
           </Link>
         </div>
